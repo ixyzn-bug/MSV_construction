@@ -1,15 +1,99 @@
-<header>
-    <nav class="navbar">
-        <div class="logo">
-            <a href="index.html">
-                <img src="logo.png" alt="MSV Construction Logo" class="main-logo">
-            </a>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MSV Construction | Building Excellence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="logo.png" alt="MSV Construction Logo" class="main-logo" onerror="this.src='https://via.placeholder.com/200x60/FFD700/000000?text=MSV+CONSTRUCTION'">
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact" class="btn-cta">Get a Quote</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content animate-fade">
+            <h1>ENGINEERING <span class="yellow">RELIABILITY</span></h1>
+            <p>MSV Construction: Scaling heights in industrial, commercial, and residential infrastructure.</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn btn-primary">Our Portfolio</a>
+                <a href="#services" class="btn btn-outline">What We Do</a>
+            </div>
         </div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact" class="btn-sm">Get a Quote</a></li>
-        </ul>
-    </nav>
-</header>
+    </section>
+
+    <section class="stats-bar">
+        <div class="stat-box"><h2>25+</h2><p>Years Experience</p></div>
+        <div class="stat-box"><h2>450</h2><p>Projects Delivered</p></div>
+        <div class="stat-box"><h2>120</h2><p>Active Machines</p></div>
+        <div class="stat-box"><h2>100%</h2><p>Safety Rating</p></div>
+    </section>
+
+    <section class="services" id="services">
+        <h2 class="section-title">Core Specializations</h2>
+        <div class="service-grid">
+            <div class="service-card animate-slide">
+                <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600" alt="Construction">
+                <div class="card-text">
+                    <h3>General Contracting</h3>
+                    <p>End-to-end management for large-scale urban developments.</p>
+                </div>
+            </div>
+            <div class="service-card animate-slide">
+                <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=600" alt="Industrial">
+                <div class="card-text">
+                    <h3>Industrial Plants</h3>
+                    <p>Specialized structural setups for manufacturing units.</p>
+                </div>
+            </div>
+            <div class="service-card animate-slide">
+                <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=600" alt="Civil">
+                <div class="card-text">
+                    <h3>Civil Engineering</h3>
+                    <p>Bridges, roads, and heavy foundation works.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery" id="projects">
+        <h2 class="section-title">Landmark Projects</h2>
+        <div class="project-grid">
+            <div class="project-item"><img src="https://picsum.photos/id/122/800/800" alt="Project 1"></div>
+            <div class="project-item"><img src="https://picsum.photos/id/191/800/800" alt="Project 2"></div>
+            <div class="project-item"><img src="https://picsum.photos/id/247/800/800" alt="Project 3"></div>
+            <div class="project-item"><img src="https://picsum.photos/id/324/800/800" alt="Project 4"></div>
+            <div class="project-item"><img src="https://picsum.photos/id/350/800/800" alt="Project 5"></div>
+            <div class="project-item"><img src="https://picsum.photos/id/351/800/800" alt="Project 6"></div>
+            <div class="project-item"><img src="https://picsum.photos/id/352/800/800" alt="Project 7"></div>
+            <div class="project-item"><img src="https://picsum.photos/id/353/800/800" alt="Project 8"></div>
+        </div>
+    </section>
+
+    <section class="contact-cta" id="contact">
+        <h2>Ready to build your vision?</h2>
+        <p>Contact MSV Construction today for a professional consultation.</p>
+        <a href="mailto:info@msvconstruction.com" class="btn btn-primary">Contact Us Now</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 <strong>MSV Construction</strong> | Built with Precision.</p>
+    </footer>
+
+</body>
+</html>
